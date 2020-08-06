@@ -1,0 +1,12 @@
+textarea
+{
+	font-size: 2rem;
+	width: 95%;
+}
+@media (max-width: 500px)
+{
+textarea
+{
+	font-size: 1.3rem;	
+}
+}

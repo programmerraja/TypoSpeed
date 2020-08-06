@@ -1,0 +1,44 @@
+#container
+{
+	margin: auto;
+	width: 90%;
+	display: flex;
+	margin-top: .5rem;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: white;
+}
+#quote
+{
+	width:90%;
+	font-size: 2rem;
+	padding: 1rem;
+	overflow-wrap: break-word;
+}	
+#mini-container
+{
+	display: flex;
+	margin-bottom: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.goodentry
+{
+	color: #00e400;
+}
+.badentry
+{
+	color:red;
+}
+
+@media (max-width: 500px)
+{
+#quote
+{
+	font-size: 1.3rem;	
+}
+}
